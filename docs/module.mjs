@@ -28,7 +28,6 @@ export async function run(wasmUrl) {
   const draw = function(board) {
     for (let i = 0; i < rows; i++) {
       for (let j = 0; j < cols; j++) {
-        const x = j * cellSize, y = i * cellSize;
         const value = 255 * (board[i * cols + j] ^ 1)
         for(let k = 0; k < cellSize; k += 1)
         for(let l = 0; l < cellSize; l += 1) {
