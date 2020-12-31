@@ -1,2 +1,3 @@
-# game-of-life-assembly-script
-Game of Life implementation with AssemblyScript
+# Game of Life implementation in AssemblyScript
+
+[AssemblyScript](https://www.assemblyscript.org/) compiles a strict variant of TypeScript to WebAssembly. 
